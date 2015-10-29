@@ -16,16 +16,16 @@ libraryDependencies ++= Seq(
 
 // Play provides two styles of routers, one expects its actions to be injected, the
 // other, legacy style, accesses its actions statically.
-routesGenerator := InjectedRoutesGenerator
+//routesGenerator := InjectedRoutesGenerator
 
-EclipseKeys.preTasks := Seq(compile in Compile)
+//EclipseKeys.preTasks := Seq(compile in Compile)
 
-EclipseKeys.projectFlavor := EclipseProjectFlavor.Java
+//EclipseKeys.projectFlavor := EclipseProjectFlavor.Java
 
-EclipseKeys.createSrc := EclipseCreateSrc.ValueSet(
-	EclipseCreateSrc.ManagedClasses, 
-	EclipseCreateSrc.ManagedResources
-) 
+//EclipseKeys.createSrc := EclipseCreateSrc.ValueSet(
+//	EclipseCreateSrc.ManagedClasses, 
+//	EclipseCreateSrc.ManagedResources
+//) 
 
 mainClass in assembly := Some("play.core.server.NettyServer")
 

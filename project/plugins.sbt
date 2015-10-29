@@ -20,6 +20,6 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0")
 // Play enhancer, regardless of whether the line above is commented out or not.
 // addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "1.0.0")
 
-addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0")
+//addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0")
 
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.0")
